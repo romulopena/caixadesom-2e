@@ -1,1 +1,1 @@
-alert("ACORDA PEDRINHO!!!!!")
+document.querySelector('.tecla_pom');
