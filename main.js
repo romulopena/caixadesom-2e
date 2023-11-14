@@ -16,7 +16,8 @@ for(let contador = 0;contador < listaDeTeclas.length;contador++){
     tecla.onkeydown = function(evento){ //função para tecla pressionada
         if(evento.code != 'Tab'){
             tecla.classList.add('ativa');
-    }
+        }
+    } 
     tecla.onkeyup = function(){ //função para tecla despressionada
         tecla.classList.remove('ativa');
     }
